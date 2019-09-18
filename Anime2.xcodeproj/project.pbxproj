@@ -12,6 +12,8 @@
 		6819F1AF23326ECD0079F6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6819F1AD23326ECD0079F6FE /* Main.storyboard */; };
 		6819F1B123326ECE0079F6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6819F1B023326ECE0079F6FE /* Assets.xcassets */; };
 		6819F1B423326ECE0079F6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6819F1B223326ECE0079F6FE /* LaunchScreen.storyboard */; };
+		6819F1BC233272EB0079F6FE /* tori1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6819F1BB233272EB0079F6FE /* tori1.mp4 */; };
+		6819F1BE233274F10079F6FE /* tori2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6819F1BD233274F10079F6FE /* tori2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6819F1B023326ECE0079F6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6819F1B323326ECE0079F6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6819F1B523326ECE0079F6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6819F1BB233272EB0079F6FE /* tori1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tori1.mp4; sourceTree = "<group>"; };
+		6819F1BD233274F10079F6FE /* tori2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tori2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		6819F1A823326ECD0079F6FE /* Anime2 */ = {
 			isa = PBXGroup;
 			children = (
+				6819F1BB233272EB0079F6FE /* tori1.mp4 */,
+				6819F1BD233274F10079F6FE /* tori2.mp4 */,
 				6819F1A923326ECD0079F6FE /* AppDelegate.swift */,
 				6819F1AB23326ECD0079F6FE /* ViewController.swift */,
 				6819F1AD23326ECD0079F6FE /* Main.storyboard */,
@@ -125,6 +131,8 @@
 				6819F1B423326ECE0079F6FE /* LaunchScreen.storyboard in Resources */,
 				6819F1B123326ECE0079F6FE /* Assets.xcassets in Resources */,
 				6819F1AF23326ECD0079F6FE /* Main.storyboard in Resources */,
+				6819F1BC233272EB0079F6FE /* tori1.mp4 in Resources */,
+				6819F1BE233274F10079F6FE /* tori2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HK.Anime2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HK.Anime2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
